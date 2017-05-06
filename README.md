@@ -16,4 +16,19 @@ HomeCenter is using MeteorJS along with AngularJS as it's templating engine. Her
 - Angular Material
 - Typescript
 
-The code should be compatible to a raspberry pi... Hopefully. 
+# General -  Meteor | AngularJS 1.5+ with Typescript
+Components! Here is some general information about using a component architecture along Meteor's framework.
+
+Basic folder structure
+```
+client/
+    -- main.ts
+    -- main.html
+    imports/
+        app/
+        -- app-component.ts
+        -- app-controller.ts
+        -- app.html
+        -- app-module.ts
+```
+
